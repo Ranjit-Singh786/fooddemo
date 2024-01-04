@@ -1,0 +1,19 @@
+{
+    "name": "myvillaapp",
+    "source": "public/index.html",
+    "type": "module",
+    "scripts": {
+        "start": "parcel",
+        "build": "parcel build"
+    },
+    "devDependencies": {
+        "babel-plugin-transform-remove-console": "^6.9.4",
+        "parcel": "latest",
+        "process": "^0.11.10"
+    },
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.21.1"
+    }
+}
